@@ -3,7 +3,7 @@
     etcd_selector: 'job=~".*etcd.*"',
   },
 
-  prometheusAlerts+:: {
+  prometheusEtcdAlerts+:: {
     groups+: [
       {
         name: 'etcd',
